@@ -1,0 +1,312 @@
+@import "null.scss";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display+SC&family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+// .block{
+//     width: 300px / 960px * 100%;
+//     height: 500px;
+//     background-color: red;
+// }
+.topLine{
+    height: 44px;
+    width: 100%;
+    background-color: #000000;
+    color: #969696;
+    font-family: 'PT Sans', sans-serif;
+    .svgPhone{
+        margin-right: 16px;
+    }
+    .line{
+        margin: 13px;
+        border-right: 1px solid #969696; 
+        border-left:1px solid #969696 ;
+    }
+    .navWrap{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 44px;
+    }
+}
+
+.secondLine{
+    height: 80px;
+    width: 100%;
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+    .logo{
+        font-size: 36px;
+        color: white;
+    }
+    .navItem{
+        height: 80px;
+        display: flex;
+        align-items: stretch;
+        .spanInSecondLine{
+            font-size: 14px;
+            padding-top: 31px ;
+            padding-bottom: 31px ;
+            padding-left: 20px;
+            padding-right: 20px;
+            transition: 0.4s;
+            &:hover{
+                background-color: #1F1F1F;
+            }
+        }
+    }
+}
+.mainContent{
+    background-image: url(img/img1.png);
+    background-size: cover;
+    height: 810px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px ;
+    .logoMainContent{
+        margin: 0 auto 0 auto;
+    }
+    .mainText{
+        font-family: 'PT Sans', sans-serif;
+        font-size: 16px;
+        color: white;
+        width: 730px;
+        text-align: center;
+        margin: 0 auto 0 auto;
+        margin-top: 80px;
+    }
+}
+.footerMainContentWrap{
+    width: 100%;
+    height: 730px;
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display SC';
+    display: flex;
+    .seasonNew{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        .seasonNewText{
+            font-size: 36px;
+            margin: 93px auto 0 auto; 
+        }
+        .handClock{
+            display: flex;
+            justify-content: space-around;
+            .allclockWrap{
+                font-family: 'Playfair Display', serif;
+                display: flex;
+                font-size: 18px;
+                flex-direction: column;
+                .priceAndName{
+                    margin-top: 25px;
+                    .onlyPrice{
+                        margin-top: 10px;
+                    }
+                }
+                .wrapBlock{
+                    height: 325px ;
+                    width: 260px;
+                    background-color:#191B1C;
+                    margin: auto ;
+                    .imgClock{
+                        height: 214px;
+                        width: 214px;
+                        margin: auto ;
+                        position: relative;
+                        top: calc( 50% - 107px);
+                        background-image: url(img/img2.png);
+                        background-repeat: round;
+                    }
+                }
+            }
+        }
+        .lineseason{
+            height: 1px;
+            width: 120px;
+            border-bottom: 1px solid white ;
+            margin: 50px auto 50px auto;
+        }
+    }
+    .collectionNew{
+        width: 45%;
+        background-image: url(img/img3.png) ;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        .collectionNewWrap{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 60%;
+            .collectionNewText{
+                font-size: 36px;
+                margin-bottom: 30px;
+            }
+            .catalog{
+                background-color: rgba(255, 255, 255, 0);
+                color: white;
+                outline: none;
+                border: 1px solid white;
+                font-family: 'PT Sans', sans-serif;
+                width: 138px;
+                height: 47px;
+                font-size: 18px;
+            }
+            .lineCollection{
+                height: 1px;
+                width: 120px;
+                background-color: white;
+                margin-bottom: 42px;
+            }
+
+        }
+    }
+}
+.footerContent{
+    display: flex;
+    width: 100%;
+    .imgBlackAndWhite{
+        background-image: url(img/4.png);
+        height: 600px;
+        width: 47% ;
+        background-size: cover;
+    }
+    .collection2018TextWrap{
+        width: 53%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        .footerContentText{
+        margin-top: 100px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            .linecollection2018{
+                height: 1px;
+                width: 120px;
+                background-color: rgb(255, 255, 255);
+                margin-top: 40px ;
+                
+            }
+            .collection2018{
+                font-family: 'Playfair Display SC';
+                font-size: 36px;
+    
+            }
+            .collection2018Text{
+                height: 173px;
+                width: 471px;
+                font-size: 14px;
+                margin-top: 40px ;
+                font-family: 'PT Sans', sans-serif;
+            }
+            .collection2018buttonWrap{
+                margin-top: 73px ;
+                .collection2018button{
+                    height: 47px;
+                    width: 311px;
+                    outline: none;
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 1px solid white;
+                    color: rgb(255, 255, 255);
+                    font-size: 18px;
+                    font-family: 'PT Sans', sans-serif;
+                }
+            }
+        }
+    }
+}
+.newStaff{
+    display: flex;
+    height: 1289px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    .newStaffText{
+        font-size: 36px;
+        font-family: 'Playfair Display', serif;
+        margin-top: 120px;
+    }
+    .lineNewStaff{
+        height: 1px;
+        width: 120px;
+        background-color: white;
+        margin-top: 40px;
+    }
+    .new_Staff_Container_Wrap{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Playfair Display', serif;
+        .new_Staff_Num_One_Container{
+            display: flex;
+            .newStaffImg{
+                margin-left: 23px;
+                .wrapBlock{
+                    height: 325px;
+                    width: 260px ;
+                    display: flex;
+                    justify-content: center;
+                    background-color: #191B1C;
+                }
+                .priceAndName{
+                    background-color: black;
+                    margin-top: 25px ;
+                    font-size: 18px;
+                    .onlyPrice{
+                        margin-top: 10px ;
+                        font-size: 16px;
+                    }
+                }
+                .imgClock{
+                    background-image: url(img/img2.png);
+                    height: 214px;
+                    width: 214px;
+                    background-size: cover;
+                    margin: auto;
+                } 
+            }
+        }
+        .new_Staff_Num_Two_Container{
+            display: flex;
+            margin-top: 40px;
+            .newStaffImg{
+                margin-left: 23px;
+                .wrapBlock{
+                    height: 325px;
+                    width: 260px ;
+                    display: flex;
+                    justify-content: center;
+                    background-color: #191B1C;
+                }
+                .priceAndName{
+                    background-color: black;
+                    margin-top: 25px ;
+                    font-size: 18px;
+                    .onlyPrice{
+                        margin-top: 10px ;
+                        font-size: 16px;
+                    }
+                }
+                .imgClock{
+                    background-image: url(img/img2.png);
+                    height: 214px;
+                    width: 214px;
+                    background-size: cover;
+                    margin: auto;
+                } 
+            }
+        }
+    }
+}

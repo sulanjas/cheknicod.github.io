@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display+SC&family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.topLine {
+  height: 44px;
+  width: 100%;
+  background-color: #000000;
+  color: #969696;
+  font-family: "PT Sans", sans-serif;
+}
+.topLine .svgPhone {
+  margin-right: 16px;
+}
+.topLine .line {
+  margin: 13px;
+  border-right: 1px solid #969696;
+  border-left: 1px solid #969696;
+}
+.topLine .navWrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 44px;
+}
+
+.secondLine {
+  height: 80px;
+  width: 100%;
+  background-color: #0F0F0F;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "PT Sans", sans-serif;
+  position: absolute;
+}
+.secondLine .logo {
+  font-size: 36px;
+  color: white;
+}
+.secondLine .navItem {
+  height: 80px;
+  display: flex;
+  align-items: stretch;
+}
+.secondLine .navItem .spanInSecondLine {
+  font-size: 14px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.4s;
+}
+.secondLine .navItem .spanInSecondLine:hover {
+  background-color: #1F1F1F;
+}
+
+.mainContent {
+  background-image: url(img/img1.png);
+  background-size: cover;
+  height: 810px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.mainContent .logoMainContent {
+  margin: 0 auto 0 auto;
+}
+.mainContent .mainText {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+  width: 730px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  margin-top: 80px;
+}
+
+.footerMainContentWrap {
+  width: 100%;
+  height: 730px;
+  background-color: black;
+  color: white;
+  font-family: "Playfair Display SC";
+  display: flex;
+}
+.footerMainContentWrap .seasonNew {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+.footerMainContentWrap .seasonNew .seasonNewText {
+  font-size: 36px;
+  margin: 93px auto 0 auto;
+}
+.footerMainContentWrap .seasonNew .handClock {
+  display: flex;
+  justify-content: space-around;
+}
+.footerMainContentWrap .seasonNew .handClock .allclockWrap {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+}
+.footerMainContentWrap .seasonNew .handClock .allclockWrap .priceAndName {
+  margin-top: 25px;
+}
+.footerMainContentWrap .seasonNew .handClock .allclockWrap .priceAndName .onlyPrice {
+  margin-top: 10px;
+}
+.footerMainContentWrap .seasonNew .handClock .allclockWrap .wrapBlock {
+  height: 325px;
+  width: 260px;
+  background-color: #191B1C;
+  margin: auto;
+}
+.footerMainContentWrap .seasonNew .handClock .allclockWrap .wrapBlock .imgClock {
+  height: 214px;
+  width: 214px;
+  margin: auto;
+  position: relative;
+  top: calc( 50% - 107px);
+  background-image: url(img/img2.png);
+  background-repeat: round;
+}
+.footerMainContentWrap .seasonNew .lineseason {
+  height: 1px;
+  width: 120px;
+  border-bottom: 1px solid white;
+  margin: 50px auto 50px auto;
+}
+.footerMainContentWrap .collectionNew {
+  width: 45%;
+  background-image: url(img/img3.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.footerMainContentWrap .collectionNew .collectionNewWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60%;
+}
+.footerMainContentWrap .collectionNew .collectionNewWrap .collectionNewText {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.footerMainContentWrap .collectionNew .collectionNewWrap .catalog {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  font-family: "PT Sans", sans-serif;
+  width: 138px;
+  height: 47px;
+  font-size: 18px;
+}
+.footerMainContentWrap .collectionNew .collectionNewWrap .lineCollection {
+  height: 1px;
+  width: 120px;
+  background-color: white;
+  margin-bottom: 42px;
+}
+
+.footerContent {
+  display: flex;
+  width: 100%;
+}
+.footerContent .imgBlackAndWhite {
+  background-image: url(img/4.png);
+  height: 600px;
+  width: 47%;
+  background-size: cover;
+}
+.footerContent .collection2018TextWrap {
+  width: 53%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.footerContent .collection2018TextWrap .footerContentText {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerContent .collection2018TextWrap .footerContentText .linecollection2018 {
+  height: 1px;
+  width: 120px;
+  background-color: white;
+  margin-top: 40px;
+}
+.footerContent .collection2018TextWrap .footerContentText .collection2018 {
+  font-family: "Playfair Display SC";
+  font-size: 36px;
+}
+.footerContent .collection2018TextWrap .footerContentText .collection2018Text {
+  height: 173px;
+  width: 471px;
+  font-size: 14px;
+  margin-top: 40px;
+  font-family: "PT Sans", sans-serif;
+}
+.footerContent .collection2018TextWrap .footerContentText .collection2018buttonWrap {
+  margin-top: 73px;
+}
+.footerContent .collection2018TextWrap .footerContentText .collection2018buttonWrap .collection2018button {
+  height: 47px;
+  width: 311px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.newStaff {
+  display: flex;
+  height: 1289px;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+.newStaff .newStaffText {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  margin-top: 120px;
+}
+.newStaff .lineNewStaff {
+  height: 1px;
+  width: 120px;
+  background-color: white;
+  margin-top: 40px;
+}
+.newStaff .new_Staff_Container_Wrap {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Playfair Display", serif;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_One_Container {
+  display: flex;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_One_Container .newStaffImg {
+  margin-left: 23px;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_One_Container .newStaffImg .wrapBlock {
+  height: 325px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  background-color: #191B1C;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_One_Container .newStaffImg .priceAndName {
+  background-color: black;
+  margin-top: 25px;
+  font-size: 18px;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_One_Container .newStaffImg .priceAndName .onlyPrice {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_One_Container .newStaffImg .imgClock {
+  background-image: url(img/img2.png);
+  height: 214px;
+  width: 214px;
+  background-size: cover;
+  margin: auto;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_Two_Container {
+  display: flex;
+  margin-top: 40px;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_Two_Container .newStaffImg {
+  margin-left: 23px;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_Two_Container .newStaffImg .wrapBlock {
+  height: 325px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  background-color: #191B1C;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_Two_Container .newStaffImg .priceAndName {
+  background-color: black;
+  margin-top: 25px;
+  font-size: 18px;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_Two_Container .newStaffImg .priceAndName .onlyPrice {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.newStaff .new_Staff_Container_Wrap .new_Staff_Num_Two_Container .newStaffImg .imgClock {
+  background-image: url(img/img2.png);
+  height: 214px;
+  width: 214px;
+  background-size: cover;
+  margin: auto;
+}
